@@ -88,6 +88,7 @@ a:hover {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+	font-size: 20px;
 }
 .hvr-sweep-to-bottom:before {
   content: "";
