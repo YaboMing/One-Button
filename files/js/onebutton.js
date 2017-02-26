@@ -135,8 +135,14 @@ function deleteRow(classnum){
       break;
     }
   }
-
-
-
-    
 }
+
+
+function addclick(name,obj)
+{
+obj.disabled=true;
+element=document.getElementById(name);
+element.style.backgroundColor="#FFAD06";
+
+}
+    
