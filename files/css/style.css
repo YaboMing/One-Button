@@ -478,7 +478,7 @@ fieldset#body {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-.hvr-sweep-to-right:before {
+.hvr-sweep-to-right:before{
   content: "";
   position: absolute;
   z-index: -1;
@@ -499,11 +499,12 @@ fieldset#body {
   transition-timing-function: ease-out;
   border-radius:4px;
 }
-.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active{
   color: white;
 }
-.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before{
   -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+  transform: scaleX(1);  
 }
+
 /*--nemo end here--*/
