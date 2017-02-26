@@ -113,9 +113,9 @@ function addRow(){
         
         td1.innerHTML = "<a id='tablenumber'>"+i+"</a>";
         td2.innerHTML = "<a id='tablename' href='Classdescription.html'>"+localStorage.getItem(i)+"</a>";
-        td3.innerHTML = "<div class='hideword'><a id='tabletrash' href='Study.html'><span id='hideword'>Learn</span><span class='glyphicon glyphicon-blackboard'></span></a></div>";
-        td4.innerHTML = "<div class='hideword'><a id='tabletrash' href='Edit.html'><span id='hideword'>Edit</span><span class='glyphicon glyphicon-edit'></span></a></div>";
-        td5.innerHTML = "<div class='hideword'><a id='tabletrash'  href='class.html' onclick='deleteRow("+i+")'><span id='hideword'>Delete</span><span class='glyphicon glyphicon-trash' style='color:red'></span></a></div>";
+        td3.innerHTML = "<div class='hideword'><a id='tabletrash' href='Study.html' style='text-decoration:none'><span id='hideword'>Learn</span><span class='glyphicon glyphicon-blackboard'></span></a></div>";
+        td4.innerHTML = "<div class='hideword'><a id='tabletrash' href='Edit.html' style='text-decoration:none'><span id='hideword'>Edit</span><span class='glyphicon glyphicon-edit'></span></a></div>";
+        td5.innerHTML = "<div class='hideword'><a id='tabletrash'  href='class.html' style='text-decoration:none'  onclick='deleteRow("+i+")'><span id='hideword' style='color:red'>Delete</span><span class='glyphicon glyphicon-trash' style='color:red'></span></a></div>";
 
       }  
 
